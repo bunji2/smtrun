@@ -1,4 +1,4 @@
-# smtrun --- Front-end of go-z3
+# smtrun --- front-end of go-z3
 
 go-z3 のフロントエンド言語 SMTL を実装してみた。実装の特徴として Golang の ast パッケージを利用してみた。
 
