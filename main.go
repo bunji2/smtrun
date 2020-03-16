@@ -25,6 +25,8 @@ func run() int {
 		return 1
 	}
 
+	fmt.Println("smtrun", VERSION)
+
 	smtlFilePath := os.Args[1]
 
 	// コンテクストオブジェクトの作成
