@@ -1,0 +1,8 @@
+package smtl
+
+func main() {
+	var x int // 13
+	var y int // 11
+	assert(x+y == 24)
+	assert(x-y == 2)
+}
