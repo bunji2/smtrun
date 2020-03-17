@@ -199,6 +199,10 @@ binary_op
 unary_op
   := "!"
 
+type
+  := "int"
+  |  "bool"
+
 Definitions of identifier and int_lit are according to Golang syntax definition.
 Refer:
   https://golang.org/ref/spec#Identifiers
