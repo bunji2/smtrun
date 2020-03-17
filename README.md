@@ -207,11 +207,11 @@ Refer:
 
 ## ビルド方法
 
-開発環境は arm の debian を使用したが、intel の linux であればほぼ同様と思われる。
+開発環境は arm の debian を使用したが、intel の linux でもほぼ同様と思われる。
 
 ### go-z3 のビルド
 
-事前に gcc と python を用意しておくこと。
+事前に gcc、g++、python、そして golang をインストールしておくこと。
 
 ```
 % go get github.com/mitchellh/go-z3
@@ -229,7 +229,7 @@ z3.go の cgo 宣言にの行を vi などのエディタで次のように修�
 // #cgo LDFLAGS: ${SRCDIR}/libz3.a -lstdc++ -lm
 ```
 
-あとは手順通り make すればよい。
+あとは go-z3 の手順通り make すればよい。
 
 ```
 % make
