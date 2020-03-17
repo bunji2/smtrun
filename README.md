@@ -243,6 +243,5 @@ z3.go の cgo 宣言にの行を vi などのエディタで次のように修�
 
 ```
 % go get github.com/bunji2/smtrun
-% cd $GOPATH/src/github.com/bunji2/smtrun
-% go build
+% go build github.com/bunji2/smtrun
 ```
